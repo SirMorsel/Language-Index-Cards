@@ -1,0 +1,49 @@
+@import '../../../sass/var'
+
+.card
+    width: 50%
+    background-color: $white
+    margin: 0 25% $cube 25%
+    display: flex
+    flex-row: row
+    justify-content: space-between
+    align-items: stretch
+    height: 100%
+    .card-content
+        width: 100%
+        display: flex
+        flex-flow: column
+        justify-content: center
+        align-items: center
+        .card-content-output
+            width: 100%
+            font-size: 3000%
+            background-color: $white
+            text-align: center
+            border-bottom: solid $cube * 0.1 $second
+        .card-content-input
+            width: 100%
+            input
+                font-size: $cube * 2
+                padding: $cube * 2
+                color: $second
+                width: 100%
+                border: none
+                word-break: break-word
+                outline: none
+    .confirm-btn
+        width: 100%
+        height: 100%
+        background-color: $prime
+        color: $second
+        font-size: $cube * 2
+        padding: $cube * 2
+        cursor: pointer
+        span
+            height: 100%
+            width: 100%
+            display: flex
+            flex-flow: row
+            justify-content: center
+            align-items: center
+
